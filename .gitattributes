@@ -1,0 +1,5 @@
+C:/Users/Sabyasachi/PycharmProjects/TestGroundTwo/StockStuff/ExtraData/Exp.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/Sabyasachi/PycharmProjects/TestGroundTwo/StockStuff/ExtraData/multi_output_ftse_min_data filter=lfs diff=lfs merge=lfs -text
+C:/Users/Sabyasachi/PycharmProjects/TestGroundTwo/StockStuff/Data/all_model_data.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/Sabyasachi/PycharmProjects/TestGroundTwo/StockStuff/Data/fin_data.csv filter=lfs diff=lfs merge=lfs -text
+StockStuff/Data/all_model_data.csv filter=lfs diff=lfs merge=lfs -text

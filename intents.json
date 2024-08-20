@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {"tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "is anyone there?", "howdy", "how are you", "good morning"],
+      "responses": ["Hi!", "Hey there!", "Hello!"]
+    },
+    {"tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "tata", "bye-bye", "Good night"],
+      "responses": ["See you later!", "Have a nice day!", "Bye! Do come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["thanks a lot", "thanks a bunch", "thank you very much", "thanks", "thank", "thank you", "that's helpful", "thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["who are you?", "what are you?"],
+     "responses": ["I.m Kasey, your bot assistant here to help you", "I'm Kasey, an Artificially Intelligent bot made to help you"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "what's your name?", "Your name?"],
+    "responses": ["You can call me Kasey, with a K", "I'm Kasey, with a K!"]
+    },
+    {"tag": "what_is_website",
+    "patterns": ["what is this site?", "what is this site about?", "what is this website?", "why am I here?", "what is this?", "why was this site made"],
+    "responses": ["This is the website for Indian School Al Ghubra, a school primarily meant for the children of Indian expatriates living in Oman."]
+    },
+    {"tag": "can_do_here",
+      "patterns": ["what can I do here?", "what is this site for?", "what is the use of this place?"],
+      "responses": ["This is the website for Indian School Al Ghubra. Over here you'll find real time updates about everything which happens in school, you'll be able to contact teachers and pretty much do anything related to this school"]
+    },
+    {"tag": "who_made",
+      "patterns": ["who made this site?", "who created this site?", "who made you?", "who were you made by?", "who were you created by?"],
+      "responses": ["This site and I, were made by three developers whose names even I don't know."]
+    },
+
+    {"tag": "help",
+      "patterns": ["i need help", "can you help me", "i require assistance", "can you assist me?", "help", "aid"],
+      "responses": ["Yes! Please tell me what you require assistance for"],
+      "context_set": "help"
+    },
+    {"tag": "register",
+      "patterns": ["i want to register my child to this school", "How to register", "i want to admit my child into isg", "i want my child to join this school", "how can i register", "how to admission in indian school al ghubra", "How to get admission in isg"],
+      "responses": ["Registration for admission to ISG starts from January 2021. A non- refundable fee of OMR 15 will be payable on each application. Here's the link from where you can submit the admission form and get more information - ###<a href='http://127.0.0.1:5000/registration' target='_blank'></a>"]
+    },
+    {"tag": "location",
+      "patterns": ["what is the location of isg?", "where is this school situated", "where is this school?", "how to reach this school?", "how to reach isg", "where is isg", "how to get to isg"],
+      "responses": ["ISG is located in Al-Ghubra, Muscat, in the Sultanate of Oman."]
+    },
+    {"tag": "contact",
+      "patterns": ["how can I contact the school officials?", "i want to contact the school officials", "how can I communicate with the school officials", "i want to talk to the school officials", "can you tell me how to contact the school officials", "i need to talk with a teacher", "can you connect me to a teacher", "can you connect me to an official", "i want to contact teacher"],
+      "responses": ["All information on how to contact us is available on this page:###<a href='http://127.0.0.1:5000/contact' target='_blank'>Contact Us</a>"]
+    },
+    {"tag": "syllabus",
+      "patterns": ["what is the syllabus for ", " want to find the syllabus for ", "can you give me the syllabus for grade ", "i need the syllabus", "what is the curriculum for", "what all is taught", "can you give me the curriculum", "i need the curriculum", "i want the curriculum", "what is the course matter", "what is the course-matter"],
+      "responses": ["You can easily find the syllabus for all our classes on this page - ###<a href='http://127.0.0.1:5000/syllabus' target='_blank'>Syllabus</a>"]
+    },
+    {"tag": "videos",
+      "patterns":["i want to see the school videos", "i want to see videos", "can you show me the videos of events", "can you give me the videos of day", "can you give me the recordings of event", "i want to see the videos of celebration"],
+      "responses": ["Sure! You'll find the archive of all school videos on this page:###<a href='http://127.0.0.1:5000/videos' target='_blank'>Videos</a>"]
+    },
+    {"tag": "photos",
+      "patterns": ["i want to see the school photos", "i want to see pictures", "can you show me the photographs of events", "can you give me the photos of day", "can you give me the pictures of event", "i want to see the photographs of celebration", "can you give me the pictures of day"],
+      "responses": ["Of course! Here's the archive of all our school photos - ###<a href='http://127.0.0.1:5000/photos' target='_blank'>Photos</a>"]
+    },
+    {"tag": "fees",
+      "patterns": ["fees", "what is the fee structure for this school", "what are the fees for this school", "what is the fee structure for class", "what are the fees for class", "what is the fee structure for grade", "what are the fees for grade", "can you tell me the fees for grade", "i want to know the fee structure"],
+      "responses": ["Here are the fees! ###<a href='http://127.0.0.1:5000/fees' target='_blank'>Fee Structure</a>"]
+    },
+    {"tag": "timetable",
+      "patterns": ["what is the timetable of this school", "i want the time-table for grade", "could you give me the schedule for class", "i need the schedules for ", "i want the timetables", "i require the time-tables"],
+      "responses": ["You'll find the timetables and schedules for all sections and grades on this page: ###<a href='http://127.0.0.1:5000/time_table' target='_blank'>Timetables</a>"]
+    },
+    {"tag": "about_school",
+      "patterns": ["i want to know more about isg", "could you give me some more information about this school", "i want to know mre about this place", "could you give me some more data", "i want to know more about indian school al ghubra"],
+      "responses": ["You can know anything about our school from the below pages. Fun fact - ISG was founded in 1990 and has over 3000 students today: ###<a href='http://127.0.0.1:5000/' target='_blank'>Home Page</a>  <a href='http://127.0.0.1:5000/aims' target='_blank'>Our Aims</a>   <a href='http://127.0.0.1:5000/mission' target='_blank'>Our Mission</a>  <a href='http://127.0.0.1:5000/principal' target='_blank'>Our Principal</a>  <a href='http://127.0.0.1:5000/president' target='_blank'>Our President</a>",
+      "The below pages will tell you anything you want about us. Fun fact - we were founded by Dr. P Mohammed Ali: ###<a href='http://127.0.0.1:5000/' target='_blank'>Home Page</a>  <a href='http://127.0.0.1:5000/aims' target='_blank'>Our Aims</a>   <a href='http://127.0.0.1:5000/mission' target='_blank'>Our Mission</a>  <a href='http://127.0.0.1:5000/principal' target='_blank'>Our Principal</a>  <a href='http://127.0.0.1:5000/president' target='_blank'>Our President</a>"]
+    },
+    {"tag": "roundsquare",
+      "patterns": ["i want to see the roundsquare page", "what is round-square", "i want to know more about round square", "can you tell me what roundsquare is", "i want for roundsquare", "i need the round-square events"],
+      "responses": ["Sure! Roundsquare is an international organization of schools which aims to increase unity and instill a sense of internationalism in the students of these institutions. You can find a lot more about roundsquare on their official website, or you could find ISG's role in it at this link - ###<a href='http://127.0.0.1:5000/roundsquare' target='_blank'>Our role in Roundsquare</a>"]
+    }
+  ]
+}
